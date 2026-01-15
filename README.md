@@ -1,6 +1,6 @@
-#Baro Grace Oghenefejiro 
-#24/13694
-#Computer Science 
+# Baro Grace Oghenefejiro 
+# 24/13694
+# Computer Science 
 
 
 Project Title:
@@ -112,7 +112,6 @@ After successful testing, the system was deployed.
 Deployment Method
 	•	The project files were uploaded to a GitHub repository.
 	•	The system can be run using:
-
 python srms_console.py
 
 # Maintenance Phase
