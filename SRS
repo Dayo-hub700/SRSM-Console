@@ -86,11 +86,12 @@ NFR4: Maintainability
 	•	Menu options
 	•	Interacts with SRMSDB class
 
-5. Constraints
-	•	Python 3.7+
-	•	sqlite3 library
+4.2 Database Tables
+	•	Students
+	•	Subjects
+	•	Scores
 
-6. Conclusion
+5. Conclusion
 
 This SRS outlines all requirements for the School Result Management System and guides the implementation process to ensure consistency between design and code.
 
