@@ -23,8 +23,6 @@ The project was implemented using Python and SQLite, and the source code was upl
 
 The development of the School Result Management System (SRMS) followed the standard Software Development Life Cycle (SDLC) phases as explained below.
 
-⸻
-
 # Planning Phase
 
 In this phase, the problem to be solved was identified.
