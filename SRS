@@ -59,8 +59,6 @@ FR4: View Student Result
 FR5: List Students
 	•	The system shall show all students stored in the system.
 
-⸻
-
 3.2 Non-Functional Requirements
 
 NFR1: Usability
@@ -74,8 +72,6 @@ NFR3: Performance
 
 NFR4: Maintainability
 	•	Python modules use modular structure for easier editing.
-
-⸻
 
 4. System Design
 
@@ -93,8 +89,6 @@ NFR4: Maintainability
 5. Constraints
 	•	Python 3.7+
 	•	sqlite3 library
-
-⸻
 
 6. Conclusion
 
