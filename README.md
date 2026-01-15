@@ -31,8 +31,6 @@ The system allows an administrator to:
 - **Database:** SQLite  
 - **Version Control:** Git & GitHub  
 
----
-
 ## System Modules
 
 ### 1. `srms_db.py`
@@ -55,8 +53,6 @@ Contains the **SRMSApp** class, which:
 ### Step 1: Clone the Repository
 ### Step 2: Run the Application
 
----
-
 ## SDLC Implementation
 The project follows the standard SDLC phases:
 1. Planning
@@ -68,6 +64,8 @@ The project follows the standard SDLC phases:
 7. Maintenance
 
 Detailed requirements are documented in the **SRS document** included in this repository.
+
+Here's a link to the entire console file: https://github.com/Dayo-hub700/SRSM-Console/tree/main
 
 ## Author
 **Grace Baro**
