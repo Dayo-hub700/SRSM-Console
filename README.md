@@ -1,3 +1,6 @@
+#Baro Grace Oghenefejiro 
+#24/13694
+# Computer Science 
 # SRMS-Console
 A School Result Management System implemented in Python using SQLite.
 
