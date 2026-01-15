@@ -17,108 +17,63 @@ The system allows an administrator to:
 	•	View student results
 	•	Store data permanently using a database
 
-The project was implemented using Python and SQLite, and the source code was uploaded to GitHub.
+## Features
+- Add new students
+- Add subjects
+- Record student scores
+- View a student’s result
+- Calculate total, average, and grade
+- Store data persistently using SQLite
+- Simple and user-friendly console interface
 
-# SOFTWARE DEVELOPMENT LIFE CYCLE (SDLC) OF SRMS
+## Technologies Used
+- **Programming Language:** Python  
+- **Database:** SQLite  
+- **Version Control:** Git & GitHub  
 
-The development of the School Result Management System (SRMS) followed the standard Software Development Life Cycle (SDLC) phases as explained below.
+---
 
-# Planning Phase
+## System Modules
 
-In this phase, the problem to be solved was identified.
+### 1. `srms_db.py`
+Contains the **SRMSDB** class, which is responsible for:
+- Creating database tables
+- Adding students and subjects
+- Recording scores
+- Retrieving student results
+- Calculating totals, averages, and grades
 
-Problem Identified
+### 2. `srms_console.py`
+Contains the **SRMSApp** class, which:
+- Displays the menu-driven interface
+- Accepts user input
+- Communicates with the database module
+- Displays results on the console
 
-Many schools manage results manually, which leads to:
-	•	Calculation errors
-	•	Loss of student records
-	•	Time-consuming processes
+## How to Run the Project
 
+### Step 1: Clone the Repository
+### Step 2: Run the Application
 
-# Requirements Analysis Phase
+---
 
-At this stage, the requirements of SRMS were identified and documented in the Software Requirements Specification (SRS).
+## SDLC Implementation
+The project follows the standard SDLC phases:
+1. Planning
+2. Requirements Analysis
+3. System Design
+4. Implementation
+5. Testing
+6. Deployment
+7. Maintenance
 
-Functional Requirements
-	•	The system shall allow the admin to add students.
-	•	The system shall allow the admin to add subjects.
-	•	The system shall allow the admin to record scores.
-	•	The system shall calculate total, average, and grade.
-	•	The system shall display a student’s result.
+Detailed requirements are documented in the **SRS document** included in this repository.
 
-Non-Functional Requirements
-	•	The system shall be easy to use (console-based).
-	•	The system shall store data persistently using SQLite.
-	•	The system shall be reliable and accurate.
-
-Outcome
-	•	SRS document created (SRS.md)
-
-# System Design Phase
-
-In this phase, the structure and components of SRMS were designed.
-
-System Architecture
-
-The system was divided into two main modules:
-	1.	Database Module – srms_db.py
-	•	Implemented using the SRMSDB class
-	•	Handles database creation and data operations
-	2.	Console Module – srms_console.py
-	•	Implemented using the SRMSApp class
-	•	Handles user interaction and menu display
-
-# Database Design
-
-Three tables were designed:
-	•	students
-	•	subjects
-	•	scores
-
-# Implementation Phase
-
-In this phase, the system was coded according to the design.
-
-Programming Language
-	•	Python
-
-Implementation Details
-	•	The SRMSDB class in srms_db.py handles:
-	•	Adding students
-	•	Adding subjects
-	•	Recording scores
-	•	Fetching results
-	•	The SRMSApp class in srms_console.py:
-	•	Displays menu options
-	•	Accepts user input
-	•	Calls database functions
+## Author
+**Grace Baro**
 
 
-# Testing Phase
 
-The system was tested to ensure it works correctly.
 
-Types of Testing
-	•	Unit Testing: Testing individual functions like adding students.
-	•	Integration Testing: Ensuring srms_console.py interacts correctly with srms_db.py.
-	•	Input Validation Testing: Ensuring scores are between 0 and 100.
-
-# Deployment Phase
-
-After successful testing, the system was deployed.
-
-Deployment Method
-	•	The project files were uploaded to a GitHub repository.
-	•	The system can be run using:
-python srms_console.py
-
-# Maintenance Phase
-
-This phase involves future improvements and updates.
-
-Possible Enhancements
-	•	User authentication
-	•	Web-based version
-	•	Printable result sheets
 
 
