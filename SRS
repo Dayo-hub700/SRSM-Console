@@ -1,0 +1,102 @@
+1. Introduction
+
+1.1 Purpose
+
+The purpose of the School Result Management System (SRMS) is to allow administrators to record student details, enter subject scores, and view results in a structured, accurate, and efficient manner.
+
+1.2 Scope
+
+SRMS is a console-based Python application that can:
+	•	Add new students
+	•	Add subjects
+	•	Record student scores
+	•	View the results of a student
+	•	List all students
+	•	Provide simple result management for schools
+
+The system uses a simple SQLite database for storing all details permanently.
+
+1.3 Definitions
+	•	SRMS – School Result Management System
+	•	Admin – User controlling the system
+	•	Student – A person whose records are stored in the system
+
+
+2. Overall Description
+
+2.1 Product Perspective
+
+The system is standalone, running on Python. It consists of:
+	•	A database module (srms_db.py)
+	•	A console UI (srms_console.py)
+
+2.2 Product Functions
+
+The SRMS will provide the following functions:
+Add Student
+Add Subject
+Record Score
+View Result
+List Students
+
+3. System Requirements
+
+3.1 Functional Requirements
+
+FR1: Add Student
+	•	The system shall allow the admin to register a new student with student_id and student_name.
+
+FR2: Add Subject
+	•	The system shall allow the admin to create new subjects.
+
+FR3: Record Score
+	•	The system shall allow input of a score between 0 and 100.
+	•	The system shall link the score with a student and a subject.
+
+FR4: View Student Result
+	•	The system shall display all subjects and corresponding scores for a student.
+
+FR5: List Students
+	•	The system shall show all students stored in the system.
+
+⸻
+
+3.2 Non-Functional Requirements
+
+NFR1: Usability
+	•	Simple, clear console menu.
+
+NFR2: Reliability
+	•	Data is stored in SQLite to ensure persistence.
+
+NFR3: Performance
+	•	System must load responses within 2 seconds for all operations.
+
+NFR4: Maintainability
+	•	Python modules use modular structure for easier editing.
+
+⸻
+
+4. System Design
+
+4.1 Modules
+	1.	srms_db.py
+	•	Handles database operations
+	•	Creates tables
+	•	Inserts students, subjects, and scores
+	•	Fetches results
+	2.	srms_console.py
+	•	User Interface
+	•	Menu options
+	•	Interacts with SRMSDB class
+
+5. Constraints
+	•	Python 3.7+
+	•	sqlite3 library
+
+⸻
+
+6. Conclusion
+
+This SRS outlines all requirements for the School Result Management System and guides the implementation process to ensure consistency between design and code.
+
