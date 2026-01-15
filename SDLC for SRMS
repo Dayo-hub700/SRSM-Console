@@ -40,10 +40,10 @@ In this phase, the structure and components of SRMS were designed.
 System Architecture
 
 The system was divided into two main modules:
-	1.	Database Module – srms_db.py
+	1.	Database Module – `srms_db.py`
 	•	Implemented using the SRMSDB class
 	•	Handles database creation and data operations
-	2.	Console Module – srms_console.py
+	2.	Console Module – `srms_console.py`
 	•	Implemented using the SRMSApp class
 	•	Handles user interaction and menu display
 
@@ -62,12 +62,12 @@ Programming Language
 	•	Python
 
 Implementation Details
-	•	The SRMSDB class in srms_db.py handles:
+	•	The SRMSDB class in `srms_db.py` handles:
 	•	Adding students
 	•	Adding subjects
 	•	Recording scores
 	•	Fetching results
-	•	The SRMSApp class in srms_console.py:
+	•	The SRMSApp class in `srms_console.py`:
 	•	Displays menu options
 	•	Accepts user input
 	•	Calls database functions
@@ -79,7 +79,7 @@ The system was tested to ensure it works correctly.
 
 Types of Testing
 	•	Unit Testing: Testing individual functions like adding students.
-	•	Integration Testing: Ensuring srms_console.py interacts correctly with srms_db.py.
+	•	Integration Testing: Ensuring `srms_console.py` interacts correctly with `srms_db.py`.
 	•	Input Validation Testing: Ensuring scores are between 0 and 100.
 
 # Deployment Phase
@@ -89,7 +89,7 @@ After successful testing, the system was deployed.
 Deployment Method
 	•	The project files were uploaded to a GitHub repository.
 	•	The system can be run using:
-python srms_console.py
+python `srms_console.py`
 
 # Maintenance Phase
 
